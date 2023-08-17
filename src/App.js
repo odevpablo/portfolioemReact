@@ -17,13 +17,13 @@ function App() {
         <h1 className='title'>Estou presente:</h1>
         <div className='social'>
             <div className='git'>
-            <DiGithubBadge size={48} id='git'/>
+            <a href="https://github.com/odevpablo"><DiGithubBadge  size={48} id='git'/></a>
             </div>
             <div className='lk'>
-            <AiFillLinkedin size={40} id='lk'/> 
+            <a href='https://www.linkedin.com/in/pablo-oliveira-7a32591b5/'><AiFillLinkedin size={40} id='lk'/></a>
             </div>
             <div className='st'>
-            <MdExtension size={39} id='st'/>
+            <a href='https://odevpablo.github.io/iDisk-Portfolio/'><MdExtension size={39} id='st'/></a>
             </div>
         </div>
         <div className='about'>
