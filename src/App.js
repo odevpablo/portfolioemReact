@@ -27,7 +27,8 @@ function App() {
             </div>
         </div>
         <div className='about'>
-          <a>Olá! Meu nome é Pablo, tenho 21 anos e sou um jovem desenvolvedor que está em busca do seu espaço.</a>
+          <a>Olá! Meu nome é Pablo, tenho 21 anos e sou um jovem
+             desenvolvedor que está em busca<br></br> do seu espaço.</a>
           <div className='ig'>
           <IoLogoInstagram size={50} id='ig' title='ig'/> 
           </div>
