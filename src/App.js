@@ -30,7 +30,7 @@ function App() {
           <a>Olá! Meu nome é Pablo, tenho 21 anos e sou um jovem
              desenvolvedor que está em busca<br></br> do seu espaço.</a>
           <div className='ig'>
-          <IoLogoInstagram size={50} id='ig' title='ig'/> 
+          <a href='https://www.instagram.com/odevpablo/'><IoLogoInstagram size={50} id='ig' title='ig'/> </a>
           </div>
        </div>
 
