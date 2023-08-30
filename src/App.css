@@ -107,7 +107,7 @@
     width: 20%;
   }
 }
-@media (max-width: 400px) 
+@media (max-width: 500px) 
 {
   .about{
     left: 5%;
