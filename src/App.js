@@ -26,6 +26,7 @@ function App() {
             <a href='https://odevpablo.github.io/iDisk-Portfolio/'><MdExtension size={39} id='st'/></a>
             </div>
         </div>
+        <div className='adaptation'>
         <div className='about'>
           <a>Olá! Meu nome é Pablo, tenho 21 anos e sou um jovem
              desenvolvedor que está em busca<br></br> do seu espaço.</a>
@@ -33,7 +34,10 @@ function App() {
           <a href='https://www.instagram.com/odevpablo/'><IoLogoInstagram size={50} id='ig' title='ig'/> </a>
           </div>
        </div>
-
+       <div className='view'>
+            
+            </div>
+            </div>
       </header>
     </div>
   );
