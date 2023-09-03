@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #1a6579;
+  background-color: #013140;
   min-height: 100vh;
   height: 100%;
   display: flex;
@@ -13,10 +13,11 @@
   font-family: sans-serif;
 
 }
+
  img{
-  top: 100px;
+  border-radius: 50%;
+  top: 50px;
   position: absolute;
-  margin-left: 80px;
  }
 .title{
   top: 250px;
@@ -25,31 +26,16 @@
   padding: 0;
 }
 .social{
-  display: flex;
-  margin-left: 50px;
+  position: absolute;
+  top: 30%;
+  align-items: center;
+  
+  
 }
 .social a{
   color: currentColor;
 }
-.git{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 30px;
-    text-decoration: none;
-    margin: 50px;
-    margin-left: 1px;
-}
-.lk{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    text-decoration: none;
-    margin-top: 55px;
-}
+
 .st{
   display: inline-block;
   width: 40px;
@@ -60,48 +46,71 @@
   margin: 50px;
   margin-top: 52px;
 }
-
-#git:hover{
-  margin-top: 3px;
+.view{
+  top: 50%;
+  height: 50%;
+  width: 50%;
+  border-radius: 2px;
+  position: absolute;
+  background-color: rgba(90, 100, 108, 0.316);
 }
-#lk:hover{
-  margin-top: 3px;
+
+#git{
+  top: 36%;
+  left: 0%;
+  position: absolute;
+}
+#lk{
+  top: 40%;
+  left: 30%;
+  position: absolute;
+}
+#st{
+  position: absolute;
+  top: 40%;
+  left: 56%;
 }
 #st:hover{
-  margin-top: 3px;
+  top: 41%;
 }
-.about {
-  left: 0;
-  border-radius: 1%;
-  top: 60%;
+#lk:hover{
+  top: 41%;
+}
+#git:hover{
+  top: 37%;
+}
+
+.view nav{
   position: absolute;
-  display: flex;
-  box-shadow: 10px 20px 30px;
-  background-color: rgba(255, 255, 255, 0.801);
-  width: 325px;
-  height: 250px;
+  margin: 20px;
 }
-.about a{
-  
-  margin-top: 60px;
-  font-family: sans-serif;
-  font-size: 15px;
-}
-#ig{
-  left: 130px;
-  margin-top: 150px;
+.projeto{
   position: absolute;
+  left: 10%;
 }
-.view{
-  top: 60%;
-  box-shadow: 10px 20px 30px 10px;
-  border-radius: 2px;
-  left: 21%;
+.sobremim{
   position: absolute;
-  background-color: aliceblue;
-  width: 75%;
-  height: 250px;
+  left: 45%;
 }
+.contatos{
+  position: absolute;
+  left: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1000px){
   .about{
     width: 20%;
@@ -124,7 +133,6 @@
     top: 30%;
   }
   .view{
-
     left: 5%;
     top: 90%;
     height: 100%;
