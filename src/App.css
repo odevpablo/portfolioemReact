@@ -3,17 +3,22 @@
 }
 
 .App-header {
-  background-color: #013140;
-  min-height: 100vh;
-  height: 100%;
+  background-color: #dbdbdbd4;
+  height: 120vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(px + 2vmin);
   font-family: sans-serif;
 
 }
+.profile{
+  position: absolute;
+  top: 38%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
 
+}
  img{
   border-radius: 50%;
   top: 50px;
@@ -24,16 +29,6 @@
   position: absolute;
   margin: 10px;
   padding: 0;
-}
-.social{
-  position: absolute;
-  top: 30%;
-  align-items: center;
-  
-  
-}
-.social a{
-  color: currentColor;
 }
 
 .st{
@@ -50,25 +45,29 @@
   top: 50%;
   height: 50%;
   width: 50%;
+  left: 30%;
   border-radius: 2px;
   position: absolute;
-  background-color: rgba(90, 100, 108, 0.316);
+  background-color: #013140(90, 100, 108, 0.316);
 }
 
-#git{
-  top: 36%;
-  left: 0%;
+.git{
+  top: 37%;
+  left: 16%;
   position: absolute;
+}
+a{
+  color: currentColor;
 }
 #lk{
   top: 40%;
-  left: 30%;
+  left: 46%;
   position: absolute;
 }
 #st{
   position: absolute;
   top: 40%;
-  left: 56%;
+  left: 76%;
 }
 #st:hover{
   top: 41%;
@@ -76,69 +75,263 @@
 #lk:hover{
   top: 41%;
 }
-#git:hover{
-  top: 37%;
+.git:hover{
+  top: 38%;
 }
 
-.view nav{
-  position: absolute;
-  margin: 20px;
-}
 .projeto{
+  width: 150px;
   position: absolute;
-  left: 10%;
+  top: 40px;
+  left: 1%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: rgb(4, 5, 5);
 }
-.sobremim{
+.about{
+  width: 150px;
   position: absolute;
-  left: 45%;
+  top: 40px;
+  left: 30%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: rgb(4, 5, 5);
+  
 }
-.contatos{
+.contatos{  
+  width: 150px;
   position: absolute;
-  left: 75%;
+  top: 40px;
+  left: 60%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: rgb(4, 5, 5);
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1000px){
-  .about{
-    width: 20%;
-  }
+.viewtemplates{
+  position: absolute;
+  top: 75px;
+  left: 0%;
+  height: 300px;
+  width: 780px;
+  
 }
-@media (max-width: 500px) 
+.idisk{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-image: url(img/IDisk.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+.versionid{
+  position: absolute;
+  top: 55%;
+  left: 25%;
+}
+.versionad{
+  position: absolute;
+  top: 55%;
+  left: 70%;
+}
+.advtemplate{
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-image: url(img/Miniatura.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+.thevibes{
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-image: url(img/template.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  opacity: 25%;
+  background-position: center;
+}
+.versiontb{
+  position: absolute;
+  top: 105%;
+  left: 20%;
+}
+.viewabout{
+  position: absolute;
+  top: 75px;
+  left: 0%;
+  height: 270px;
+  width: 700px;
+
+}
+
+.habilidades{
+  position: absolute;
+  left: 0%;
+  width: 30%;
+  top: 25%;
+  padding-right: 15%;
+  border-right: 2px solid black; 
+  height: 100%
+}
+.elementshab{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 25%;
+  font-size: 35px;
+}
+.formacao{
+  position: absolute;
+  left: 55%;
+  top: 45%;
+}
+.viewcontatos{
+  position: absolute;
+  top: 75px;
+  left: 0%;
+  display: flex;
+  height: 130px;
+  width: 700px;
+}
+
+button{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+button:hover{
+  text-decoration: underline 1px#013140;
+  border-radius: 3px;
+  transition: 1s;
+
+}
+ #root{
+  background-color: #013140;
+ }
+
+
+
+
+
+
+
+@media (max-width: 1000px) 
 {
-  .about{
-    left: 5%;
-    width: 350px;
-
+  .App-header{
+    height: 130vh;
+  }
+  img {
+    top: 15%;
+    left: 25.5%;
   }
   .profile{
-    left: 10%;
-    top: 1px;
+    font-size: 15px;
+    left: 20%;
+    top: 40%;
     position: absolute;
   }
-  .social{
-    position: absolute;
-    top: 30%;
-  }
+
   .view{
-    left: 5%;
-    top: 90%;
-    height: 100%;
-    width: 350px;
+    left: 15%;
+    top: 50%;
+    width: 80%;
+    
   }  
-  .App-header{
-    min-height: 200vh;
-   }
+   .projeto{
+    width: 40px;
+    left: 0px;
+    font-size: 16px;
+  }
+  .viewtemplates{
+    width: 80vw;
+    left: 0;
+  }
+  .idisk{
+    width: 40%;
+    left: 0px;
+  }
+  .versionad{
+    left: 18%;
+    top: 110%;
+  }
+  .versionid{
+    left: 18%;
+  }
+  .advtemplate{
+    top: 70%;
+    left: 0px;
+    width: 40%;
+
+  }
+  .about{
+    width: 60px;
+    left: 40%;
+    font-size: 16px;
+  }
+  .viewabout{
+    left: 0;
+    width: 100%;
+    height: 50%;
+  }
+  .habilidades{
+    top: 10%;
+    left: 25%;
+    border: none;
+  }
+  .elementshab{
+    top: 5%;
+    left: 0%;
+  }
+  .formacao{
+    width: 50%;
+    top: 100%;
+    left: 15%;
+    text-align: center;
+    border-top: 2px solid;
+    padding: 20px;
+  }
+  .contatos{
+    width: 40px;
+    font-size: 16px;
+    left: 70%;
+  }
+  .thevibes{
+    top: 15%;
+    left: 50%;
+    width: 40%;
+
+  }
+  .versiontb{
+    top: 55%;
+    left: 55%;
+  }
+  .viewcontatos{
+    width: 100%;
+    height: 50%;
+    left: 0%;
+  }
+  .git{
+    left: 5%;
+  }
+  #lk{
+    left: 45%;
+  }
+  #st{
+    left: 80%;
+  }
 }
