@@ -54,7 +54,7 @@ class Options extends Component {
         )}
         {opcao === 'sobremim' && (
           <div className='viewabout'>
-            <a className='habilidades'>Habilidades:
+            <a>Habilidades adicionais: </a>
             <section className='elementshab'>
             <AiOutlineHtml5/>
             <DiCss3/>
@@ -62,9 +62,10 @@ class Options extends Component {
             <BiLogoReact/>
             <BiLogoSpringBoot/>
             <DiSymfonyBadge/>
-            </section>
-            </a>
-            <a className='formacao'>
+            </section><div/>  
+            <a className='formacao'> 
+            <a>Formação:</a>
+            <br/>
             Análise e Desenvolvimento de Sistemas - Superior Tecnólogo
             Duração: 5 semestres
             Instituição: Centro Universitário Internacional - UNINTER - Polo Montes Claros

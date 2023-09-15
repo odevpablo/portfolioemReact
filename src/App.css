@@ -190,15 +190,23 @@ a{
   height: 100%
 }
 .elementshab{
+  border-right: 2px solid;
   position: absolute;
-  margin-left: 5%;
-  margin-top: 25%;
+  margin-left: 25%;
+  margin-top: 10%;
   font-size: 35px;
+  padding: 30px;
+  width: 50px;
 }
 .formacao{
   position: absolute;
   left: 55%;
-  top: 45%;
+  top: 50%;
+  
+}
+.formacao a{
+  font-weight: bold;
+  padding: 100px;
 }
 .viewcontatos{
   position: absolute;
@@ -298,9 +306,9 @@ button:hover{
     left: 0%;
   }
   .formacao{
-    width: 50%;
+    width: 80%;
     top: 100%;
-    left: 15%;
+    left: 15px;
     text-align: center;
     border-top: 2px solid;
     padding: 20px;
