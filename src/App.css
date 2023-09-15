@@ -237,19 +237,19 @@ button:hover{
   }
   img {
     top: 15%;
-    left: 26%;
+    left: 110px;
   }
   .profile{
     font-size: 15px;
-    left: 25%;
+    left: 90px;
     top: 40%;
     position: absolute;
   }
 
   .view{
-    left: 15%;
+    left: 35px;
     top: 50%;
-    width: 80%;
+    width: 90%;
     
   }  
    .projeto{
