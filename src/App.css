@@ -179,6 +179,13 @@ a{
   width: 700px;
 
 }
+.hab{
+  font-weight: bold;
+  left: 0;
+  top: 60px;
+  margin-left: 60px;
+  position: absolute;
+}
 
 .habilidades{
   position: absolute;
@@ -192,16 +199,14 @@ a{
 .elementshab{
   border-right: 2px solid;
   position: absolute;
-  margin-left: 25%;
   margin-top: 10%;
   font-size: 35px;
   padding: 30px;
-  width: 50px;
 }
 .formacao{
   position: absolute;
   left: 55%;
-  top: 50%;
+  top: 25%;
   
 }
 .formacao a{
@@ -299,16 +304,19 @@ button:hover{
   .habilidades{
     top: 10%;
     left: 25%;
-    border: none;
+  }
+  .hab{
+    left: 25px;
   }
   .elementshab{
-    top: 5%;
-    left: 0%;
+    top: 30px;
+    left: 40px;
+    border: none;
   }
   .formacao{
-    width: 80%;
+    width: 85%;
     top: 100%;
-    left: 15px;
+    left: 0px;
     text-align: center;
     border-top: 2px solid;
     padding: 20px;

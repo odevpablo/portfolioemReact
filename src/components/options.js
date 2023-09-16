@@ -54,7 +54,7 @@ class Options extends Component {
         )}
         {opcao === 'sobremim' && (
           <div className='viewabout'>
-            <a>Habilidades adicionais: </a>
+            <a className='hab'>Habilidades adicionais: </a>
             <section className='elementshab'>
             <AiOutlineHtml5/>
             <DiCss3/>
