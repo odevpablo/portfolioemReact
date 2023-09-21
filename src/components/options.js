@@ -35,9 +35,9 @@ class Options extends Component {
           <div className='viewtemplates'>
              <section>
               <div className='tmp2'>
-              <a href="https://odevpablo.github.io/iDisk-Portfolio/" className="idisk">
+              <a href="https://idisk.netlify.app/" className="idisk">
               </a> 
-              <a className='versionid'>v.1</a>
+              <a className='versionid'>v.2</a>
               <div className='tmp1'>
               <a href="https://mytemplateodevpablo.netlify.app/" className="advtemplate">
               </a>
