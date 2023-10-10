@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { useState } from "react";
-import {AiFillLinkedin, AiFillInstagram, AiOutlineHtml5 } from 'react-icons/ai';
-import {DiGithubBadge,DiCss3,DiJavascript,DiSymfonyBadge  } from 'react-icons/di';
-import{BiLogoSpringBoot,BiLogoReact} from 'react-icons/bi'
+import {AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
+import {DiGithubBadge } from 'react-icons/di';
 
 class Options extends Component {
   constructor() {
@@ -37,16 +36,37 @@ class Options extends Component {
               <div className='tmp2'>
               <a href="https://idisk.netlify.app/" className="idisk">
               </a> 
-              <a className='versionid'>v.2</a>
               <div className='tmp1'>
               <a href="https://mytemplateodevpablo.netlify.app/" className="advtemplate">
               </a>
-              <a className='versionad'>v.3</a>
               </div>
               <div className="tmp3">
                 <a href="" className="thevibes">
                 </a>
-                <a className="versiontb">Em Produção</a>
+              </div>
+              <div className="modal1">
+                <a href="" className="">
+                </a>
+              </div>
+              <div className="modal2">
+                <a href="" className="">
+                </a>
+              </div>
+              <div className="modal3">
+                <a href="" className="">
+                </a>
+              </div>
+              <div className="modal4">
+                <a href="" className="">
+                </a>
+              </div>
+              <div className="modal5">
+                <a href="" className="">
+                </a>
+              </div>
+              <div className="modal6">
+                <a href="" className="">
+                </a>
               </div>
               </div>
             </section>
@@ -54,15 +74,7 @@ class Options extends Component {
         )}
         {opcao === 'sobremim' && (
           <div className='viewabout'>
-            <a className='hab'>Habilidades adicionais: </a>
-            <section className='elementshab'>
-            <AiOutlineHtml5/>
-            <DiCss3/>
-            <DiJavascript/>
-            <BiLogoReact/>
-            <BiLogoSpringBoot/>
-            <DiSymfonyBadge/>
-            </section><div/>  
+           
             <a className='formacao'> 
             <a>Formação:</a>
             <br/>

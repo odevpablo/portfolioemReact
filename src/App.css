@@ -3,25 +3,25 @@
 }
 
 .App-header {
-  background-color: #dbdbdbd4;
+  background-color: #D0CFEC;
   height: 120vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: sans-serif;
 
 }
 .profile{
   position: absolute;
-  top: 38%;
+  top: 450px;
+  left: 150px;
   display: flex;
   flex-direction: column;
   font-size: 20px;
-
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
  img{
-  border-radius: 50%;
-  top: 50px;
+  left: 0;
+  top: 0px;
   position: absolute;
  }
 .title{
@@ -30,7 +30,10 @@
   margin: 10px;
   padding: 0;
 }
-
+.teste{
+  top: 80px;
+  position: absolute;
+}
 .st{
   display: inline-block;
   width: 40px;
@@ -42,10 +45,10 @@
   margin-top: 52px;
 }
 .view{
-  top: 50%;
+  top: 30px;
   height: 50%;
-  width: 50%;
-  left: 30%;
+  width: 950px;
+  left: 550px;
   border-radius: 2px;
   position: absolute;
   background-color: #013140(90, 100, 108, 0.316);
@@ -82,8 +85,7 @@ a{
 .projeto{
   width: 150px;
   position: absolute;
-  top: 40px;
-  left: 1%;
+  left: 0%;
   background: none;
   border: none;
   font-size: 20px;
@@ -92,8 +94,7 @@ a{
 .about{
   width: 150px;
   position: absolute;
-  top: 40px;
-  left: 30%;
+  left: 40%;
   background: none;
   border: none;
   font-size: 20px;
@@ -103,8 +104,7 @@ a{
 .contatos{  
   width: 150px;
   position: absolute;
-  top: 40px;
-  left: 60%;
+  left: 80%;
   background: none;
   border: none;
   font-size: 20px;
@@ -115,15 +115,15 @@ a{
 .viewtemplates{
   position: absolute;
   top: 75px;
-  left: 0%;
+  left: 100px;
   height: 300px;
-  width: 780px;
+  width: 800px;
   
 }
 .idisk{
   position: absolute;
   top: 15%;
-  left: 15%;
+  left: 0%;
   height: 100px;
   width: 150px;
   border-radius: 5%;
@@ -131,20 +131,11 @@ a{
   background-repeat: no-repeat;
   background-size: 160px;
 }
-.versionid{
-  position: absolute;
-  top: 55%;
-  left: 25%;
-}
-.versionad{
-  position: absolute;
-  top: 55%;
-  left: 70%;
-}
+
 .advtemplate{
   position: absolute;
   top: 15%;
-  left: 60%;
+  left: 40%;
   height: 100px;
   width: 150px;
   border-radius: 5%;
@@ -155,8 +146,8 @@ a{
 }
 .thevibes{
   position: absolute;
-  top: 65%;
-  left: 15%;
+  top: 15%;
+  left: 80%;
   height: 100px;
   width: 150px;
   border-radius: 5%;
@@ -166,11 +157,73 @@ a{
   opacity: 25%;
   background-position: center;
 }
-.versiontb{
+.modal1{
   position: absolute;
-  top: 105%;
-  left: 20%;
+  top: 65%;
+  left: 0%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-color: #2722bb;
+  background-size: 250px;
+  background-position: center;
 }
+.modal2{
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-color: #2722bb;
+  background-size: 250px;
+  background-position: center;
+}
+.modal3{
+  position: absolute;
+  top:65%;
+  left: 80%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-color: #2722bb;
+  background-size: 250px;
+  background-position: center;
+}
+.modal4{
+  position: absolute;
+  top: 355px;
+  left: 0%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-color: #2722bb;
+  background-size: 250px;
+  background-position: center;
+}
+.modal5{
+  position: absolute;
+  top: 355px;
+  left: 40%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-color: #2722bb;
+  background-size: 250px;
+  background-position: center;
+}
+.modal6{
+  position: absolute;
+  top: 355px;
+  left: 80%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5%;
+  background-color: #2722bb;
+  background-size: 250px;
+  background-position: center;
+}
+
 .viewabout{
   position: absolute;
   top: 75px;
@@ -197,11 +250,11 @@ a{
   height: 100%
 }
 .elementshab{
-  border-right: 2px solid;
   position: absolute;
-  margin-top: 10%;
-  font-size: 35px;
-  padding: 60px;
+  left: 0;
+  width: 250px;
+  top: 100px;
+  font-size: 45px;
 }
 .formacao{
   position: absolute;
@@ -246,22 +299,25 @@ button:hover{
 @media (max-width: 1000px) 
 {
   .App-header{
+    width: 100%;
     height: 130vh;
   }
   img {
-    top: 15%;
-    left: 110px;
+    top: 0%;
+    width: 100vw;
+    left: 0px;
   }
   .profile{
-    font-size: 15px;
-    left: 85px;
-    top: 40%;
+    font-size: 25px;
+    left: 60px;
+    top: 42%;
     position: absolute;
   }
+  
 
   .view{
     left: 35px;
-    top: 50%;
+    top: 65%;
     width: 90%;
     
   }  
@@ -278,13 +334,7 @@ button:hover{
     width: 40%;
     left: 0px;
   }
-  .versionad{
-    left: 18%;
-    top: 110%;
-  }
-  .versionid{
-    left: 18%;
-  }
+  
   .advtemplate{
     top: 70%;
     left: 0px;
@@ -301,6 +351,36 @@ button:hover{
     width: 100%;
     height: 50%;
   }
+  .modal1{
+    width: 40%;
+    left: 50%;
+    top: 70%;
+  }
+  .modal2{
+    width: 40%;
+    left: 0%;
+    top: 120%;
+  }
+  .modal3{
+    width: 40%;
+    left: 50%;
+    top: 120%;
+  }
+  .modal4{
+    width: 40%;
+    left: 50%;
+    top: 70%;
+  }
+  .modal5{
+    width: 40%;
+    left: 50%;
+    top: 70%;
+  }
+  .modal6{
+    width: 40%;
+    left: 50%;
+    top: 70%;
+  }
   .habilidades{
     top: 10%;
     left: 25%;
@@ -309,8 +389,8 @@ button:hover{
     left: 25px;
   }
   .elementshab{
-    top: 30px;
-    left: 40px;
+    top: 80px;
+    left: 30px;
     border: none;
   }
   .formacao{
@@ -349,5 +429,14 @@ button:hover{
   }
   #st{
     left: 80%;
+  }
+  .projeto{
+    font-size: 18px;
+  }
+  .about{
+    font-size: 18px;
+  }
+  .contatos{
+    font-size: 18px;
   }
 }
