@@ -302,7 +302,7 @@ button:hover{
 
 
 
-@media (max-width: 550px) 
+@media (max-width: 500px) 
 {
   .App-header{
     width: 100%;
@@ -355,32 +355,32 @@ button:hover{
     width: 100%;
     height: 50%;
   }
-  .modal1{
+  .model1{
     width: 40%;
     left: 50%;
     top: 70%;
   }
-  .modal2{
+  .model2{
     width: 40%;
     left: 0%;
     top: 120%;
   }
-  .modal3{
+  .model3{
     width: 40%;
     left: 50%;
     top: 120%;
   }
-  .modal4{
+  .model4{
     width: 40%;
     left: 50%;
     top: 70%;
   }
-  .modal5{
+  .model5{
     width: 40%;
     left: 50%;
     top: 70%;
   }
-  .modal6{
+  .model6{
     width: 40%;
     left: 50%;
     top: 70%;
