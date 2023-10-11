@@ -300,7 +300,7 @@ button:hover{
 {
   .App-header{
     width: 100%;
-    height: 130vh;
+    height: 200vh;
   }
   img {
     top: 0%;
@@ -309,14 +309,12 @@ button:hover{
   }
   .profile{
     font-size: 25px;
-    left: 50px;
-    top: 52%;
+    left: 39px;
+    top: 54%;
     position: absolute;
   }
-  
-
   .view{
-    left: 35px;
+    left: 25px;
     top: 85%;
     width: 90%;
     
