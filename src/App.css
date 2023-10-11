@@ -594,6 +594,9 @@ button:hover{
     top: 120%;
     left: 250px;
   }
+  .elementshab{
+    left: 30px;
+  }
   .view{
     left: 60px;
   }
@@ -602,6 +605,9 @@ button:hover{
   .profile{
     top: 90%;
     left: 115px;
+  }
+  .elementshab{
+    left: 30px;
   }
   .view{
     top: 130%;
@@ -612,6 +618,9 @@ button:hover{
   .profile{
     top: 70%;
     left: 70px;
+  }
+  .elementshab{
+    left: 30px;
   }
   .view{
     top: 120%;
