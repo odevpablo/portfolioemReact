@@ -577,15 +577,7 @@ button:hover{
     height: 50%;
     left: 0%;
   }
-  .git{
-    left: 5%;
-  }
-  #lk{
-    left: 45%;
-  }
-  #st{
-    left: 80%;
-  }
+
   .projeto{
     font-size: 18px;
   }
@@ -629,6 +621,9 @@ button:hover{
 @media (max-width: 353px) {
   .profile{
     top: 70%;
+    left: 30px;
+  }
+  .elementshab{
     left: 30px;
   }
   .view{
