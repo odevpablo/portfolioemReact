@@ -640,3 +640,26 @@ button:hover{
     left:20px;
   }
 }
+@media (max-width: 335px) {
+  .profile{
+    top: 50%;
+    left: 10px;
+  }
+  .elementshab{
+    top: 150%;
+    left: 30px;
+  }
+  .descricao{
+    left: 10%;
+  }
+  .formacao{
+    width: 90%;
+    left: 0%;
+    top: 260%;
+  }
+
+  .view{
+    top: 90%;
+    left:10px;
+  }
+}
