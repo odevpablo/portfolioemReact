@@ -44,27 +44,27 @@ class Options extends Component {
                 <a href="" className="thevibes">
                 </a>
               </div>
-              <div className="modal1">
+              <div className="model1">
                 <a href="" className="">
                 </a>
               </div>
-              <div className="modal2">
+              <div className="model2">
                 <a href="" className="">
                 </a>
               </div>
-              <div className="modal3">
+              <div className="model3">
                 <a href="" className="">
                 </a>
               </div>
-              <div className="modal4">
+              <div className="model4">
                 <a href="" className="">
                 </a>
               </div>
-              <div className="modal5">
+              <div className="model5">
                 <a href="" className="">
                 </a>
               </div>
-              <div className="modal6">
+              <div className="model6">
                 <a href="" className="">
                 </a>
               </div>
@@ -74,7 +74,10 @@ class Options extends Component {
         )}
         {opcao === 'sobremim' && (
           <div className='viewabout'>
-           
+            <a className='descricao'>
+              Estou quase terminando minha graduação em Análise e Desenvolvimento de Sistemas, com foco principal nas linguagens de programação front-end. 
+              Tenho experiência no uso do React.js e Spring, incluindo a criação de rotas com o Symfony. 
+              Além disso, possuo um bom conhecimento em SQL e Spring Boot.</a>
             <a className='formacao'> 
             <a>Formação:</a>
             <br/>
