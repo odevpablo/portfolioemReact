@@ -296,7 +296,7 @@ button:hover{
 
 
 
-@media (max-width: 1000px) 
+@media (max-width: 550px) 
 {
   .App-header{
     width: 100%;
@@ -310,14 +310,14 @@ button:hover{
   .profile{
     font-size: 25px;
     left: 50px;
-    top: 42%;
+    top: 52%;
     position: absolute;
   }
   
 
   .view{
     left: 35px;
-    top: 65%;
+    top: 85%;
     width: 90%;
     
   }  
