@@ -3,24 +3,75 @@ import { useState } from "react";
 import {AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 import {DiGithubBadge } from 'react-icons/di';
 
-class Options extends Component {
-  constructor() {
-    super();
+import Effect from './mouseenter';
+
+
+
+class DivSpan extends Component {
+  constructor(props) {
+    super(props);
     this.state = {
-      quadroVisivel: null,
+      spanVisible: false,
     };
   }
 
+  handleDivClick = () => {
+    this.setState({ spanVisible: !this.state.spanVisible });
+  };
+
+  render() {
+    const spanContent = this.state.spanVisible ? (
+      <a href={this.props.link}>{this.props.spanContent}</a>
+    ) : null;
+
+    return (
+      <div onClick={this.handleDivClick} className={this.props.className}>
+        {spanContent}
+        {this.props.children}
+      </div>
+    );
+  }
+}
+
+class Options extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      quadroVisivel: null,
+      spanVisible: false,
+
+    };
+    
+  } 
+   handleDivClick = () => {
+    this.setState({ spanVisible: !this.state.spanVisible });
+  };
+
+
+ 
+  handleMouseEnter = () => {
+    this.setState({ mouseHover: true });
+  };
+
+  handleMouseLeave = () => {
+    this.setState({ mouseHover: false });
+  };
   mostrarOpcao = (opcao) => {
     if (this.state.opcao !== null) {
       this.setState({ opcao: null });
     }
 
-    // Mostre o novo quadro
     this.setState({ opcao: opcao });
   };
+  
 
   render() {
+    
+    const divStyle = {
+      backgroundColor: this.state.mouseHover ? 'lightblue' : 'white',
+      boxShadow: this.state.mouseHover ? '0 0 10px rgba(0, 0, 0, 0.5)' : 'none',
+    };
+
     const { opcao } = this.state;
 
     return (
@@ -32,42 +83,51 @@ class Options extends Component {
         {opcao === 'projetos' && (
           <div className='viewtemplates'>
              <section>
-              <div className='tmp2'>
-              <a href="https://idisk.netlify.app/" className="idisk">
-              </a> 
-              <div className='tmp1'>
-              <a href="https://mytemplateodevpablo.netlify.app/" className="advtemplate">
-              </a>
-              </div>
-              <div className="tmp3">
-                <a href="" className="thevibes">
-                </a>
-              </div>
-              <div className="model1">
-                <a href="" className="">
-                </a>
-              </div>
+              <DivSpan className='tmp2' spanContent="iDisk" link="https://idisk.netlify.app/">
+              <Effect className="idisk">
+              </Effect >
+              </DivSpan> 
+
+              <DivSpan className='tmp1' spanContent="Template de Contato" link="https://mytemplateodevpablo.netlify.app/">
+              <Effect className="advtemplate">
+              </Effect>
+              </DivSpan>
+
+              <DivSpan className="tmp3" spanContent="The Vibes v.1">
+                <Effect className="thevibes">
+                </Effect>
+              </DivSpan>
+
+              <DivSpan className="tmp4" spanContent="Review (NODE.JS)">
+                <Effect className="model1">
+                </Effect>
+              </DivSpan>
+
               <div className="model2">
-                <a href="" className="">
-                </a>
+                <Effect href="" className="">
+                </Effect>
               </div>
+
               <div className="model3">
-                <a href="" className="">
-                </a>
+                <Effect href="" className="">
+                </Effect>
               </div>
+
               <div className="model4">
-                <a href="" className="">
-                </a>
+                <Effect href="" className="">
+                </Effect>
               </div>
+
               <div className="model5">
-                <a href="" className="">
-                </a>
+                <Effect href="" className="">
+                </Effect>
               </div>
+
               <div className="model6">
-                <a href="" className="">
-                </a>
+                <Effect href="" className="">
+                </Effect>
               </div>
-              </div>
+
             </section>
           </div>
         )}

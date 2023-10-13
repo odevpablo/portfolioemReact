@@ -31,6 +31,9 @@
   padding: 0;
 }
 .teste{
+  width: 500px;
+  height: 200px;
+  background-color: #013140;
   top: 80px;
   position: absolute;
 }
@@ -120,6 +123,10 @@ a{
   width: 800px;
   
 }
+section{ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
 .idisk{
   position: absolute;
   top: 15%;
@@ -131,7 +138,29 @@ a{
   background-repeat: no-repeat;
   background-size: 160px;
 }
-
+.tmp2 a{
+  position: absolute;
+  left: 55px;
+  top: 150px;
+  text-decoration: none;
+}
+.tmp1 a{
+  top: 150px;
+  left: 300px;
+  position: absolute;
+  text-decoration: none;
+}
+.tmp3 a{
+  position: absolute;
+  right: 25px;
+  top: 150px;
+  text-decoration: none;
+}
+.tmp4 a{
+  position: absolute;
+  top: 300px;
+  left: 0px;
+}
 .advtemplate{
   position: absolute;
   top: 15%;
