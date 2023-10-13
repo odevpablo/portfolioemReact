@@ -164,7 +164,8 @@ a{
   height: 100px;
   width: 150px;
   border-radius: 5%;
-  background-color: #4b4977;
+  background-image: url(img/NODE\ JS.png);
+  background-repeat: no-repeat;
   background-size: 250px;
   background-position: center;
 }

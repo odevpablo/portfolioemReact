@@ -12,7 +12,6 @@ class Options extends Component {
   }
 
   mostrarOpcao = (opcao) => {
-    // Esconda o quadro atualmente visível (se houver um)
     if (this.state.opcao !== null) {
       this.setState({ opcao: null });
     }
