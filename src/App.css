@@ -1,9 +1,28 @@
+@keyframes slide-right {
+  0% { opacity: 0; -webkit-transform: translateX(-50%); }   
+  100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+@keyframes slide-down{
+  0% { opacity: 0; -webkit-transform: translateY(-100%); }   
+  100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes brilho{
+    
+0%, 100% {
+  border-color: #5df715; /* Cor da borda quando visível */
+}
+50% {
+  border-color: transparent; /* Cor da borda quando invisível (transparente) */
+}
+}
+
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #D0CFEC;
+  background-color: #e4e6d9;
   height: 120vh;
   display: flex;
   align-items: center;
@@ -18,11 +37,17 @@
   flex-direction: column;
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation: slide-down 1s ease-in-out;
+
 }
+
  img{
   left: 0;
   top: 0px;
   position: absolute;
+  animation: slide-down 1.5s ease-in-out;
+  border-radius: 1em;
+
  }
 .title{
   top: 250px;
@@ -121,8 +146,11 @@ a{
   left: 100px;
   height: 300px;
   width: 800px;
-  
+  animation: slide-right 1.5s ease-in-out;
+
 }
+
+
 section{ 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
@@ -261,6 +289,8 @@ section{
   font-size: 20px;
   height: 270px;
   width: 700px;
+  animation: slide-right 1.5s ease-in-out;
+
 
 }
 .hab{
@@ -287,6 +317,90 @@ section{
   top: 100px;
   font-size: 45px;
 }
+.elementhtml {
+  background-color: #cedce4;
+  position: absolute;
+  top: 10px;
+  border: 1px solid #000000; 
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 1em;
+  animation: brilho 30s ease-in-out infinite;
+
+}
+#htmlbox{
+  margin-top: 5px;
+}
+.elementcss {
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 10px;
+  padding: 5px;
+  left: 65px;
+  font-size: 15px;
+  border-radius: 1em;
+  animation: brilho 30s ease-in-out infinite;
+  border: 1px solid #000000; 
+
+}
+#cssbox{
+  margin-top: 5px;
+}
+.elementjs {
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 10px;
+  padding: 5px;
+  left: 120px;
+  font-size: 15px;
+  border-radius: 1em;
+  animation: brilho 20s ease-in-out infinite;
+  border: 1px solid #000000; 
+}
+#jsbox{
+  margin-top: 5px;
+}
+.elementreact {
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 50px;
+  padding: 5px;
+  left: ;
+  font-size: 15px;
+  border-radius: 1em;
+  animation: brilho 20s ease-in-out infinite;
+  border: 1px solid #000000; 
+}
+#reactbox{
+  margin-top: 5px;
+}
+.elementspring {
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 1em;
+  animation: brilho 10s ease-in-out infinite;
+  border: 1px solid #000000; 
+}
+#springbox{
+  margin-top: 5px;
+}
+.elementsf {
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 90px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 1em;
+  animation: brilho 10s ease-in-out infinite;
+  border: 1px solid #000000; 
+}
+#sfbox{
+  margin-top: 6px;
+}
 .descricao{
   position: absolute;
   top: 10%;
@@ -309,6 +423,8 @@ section{
   display: flex;
   height: 130px;
   width: 700px;
+  animation: slide-right 1.5s ease-in-out;
+
 }
 
 button{
