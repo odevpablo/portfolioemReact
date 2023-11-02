@@ -233,7 +233,7 @@ section{
   height: 100px;
   width: 150px;
   border-radius: 5%;
-  background-color: #4b4977;
+  background-image: url(img/searchcep.png);
   background-size: 250px;
   background-position: center;
 }
