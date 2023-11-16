@@ -753,4 +753,17 @@ button:hover{
     top: 210%;
   }
 }
+@media(max-width: 337px){
+  .profile{
+    top: 50%;
+    left: 30%;
+  }
+  .divskills{
+    top: 35%;
+    left: 70px;
+  }
+  .elementshab{
+    left: 75px;
+  }
+}
 
