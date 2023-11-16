@@ -766,5 +766,8 @@ button:hover{
     left: 75px;
     top: 100%;
   }
+  .view{
+    left: 0;
+  }
 }
 
