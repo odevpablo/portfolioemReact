@@ -736,7 +736,7 @@ button:hover{
 @media(max-width: 357px){
   .profile{
     top: 60%;
-    left: 0;
+    
   }
   .divskills{
     top: 45%;
