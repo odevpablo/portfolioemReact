@@ -718,32 +718,39 @@ button:hover{
 }
 @media (max-width: 430px){
   .profile{
-    top: 40%;
+    left: 32%;
+    top: 65%;
   }
   .divskills{
-    top: 30%;
+    top: 50%;
+    left: 24%;
   }
   .elementshab{
-    top: 60%;
+    left: 25%;
+    top: 100%;
   }
   .view{
-    top: 80%;
+    top: 130%;
   }
 }
 @media(max-width: 357px){
   .profile{
-    top: 30%;
+    top: 60%;
+    left: 0;
   }
   .divskills{
-    top: 20%;
+    top: 45%;
     left: 80px;
   }
   .elementshab{
-    top: 50%;
+    top: 95%;
     left: 90px;
   }
   .view{
-    top: 70%;
+    top: 120%;
+  }
+  .formacao{
+    top: 210%;
   }
 }
 
