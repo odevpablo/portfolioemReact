@@ -133,18 +133,18 @@ class Options extends Component {
         )}
         {opcao === 'sobremim' && (
           <div className='viewabout'>
-            <a className='descricao'>
+            <p className='descricao'>
             Graduando em Análise e Desenvolvimento de Sistemas com foco em linguagens de programação front-end,
              buscando oportunidades de carreira para aplicar meus conhecimentos em
-              Angular, JavaScript , React.js, Spring, PHP, Node.js e SQL.</a>
-            <a className='formacao'> 
-            <a>Formação:</a>
+              Angular, JavaScript , React.js, Spring, PHP, Node.js e SQL.</p>
+            <p className='formacao'> 
+            <p>Formação:</p>
             <br/>
             Análise e Desenvolvimento de Sistemas - Superior Tecnólogo
             Duração: 5 semestres
             Instituição: Centro Universitário Internacional - UNINTER - Polo Montes Claros
             <br/>Conclusão: 2º Semestre de 2023
-            </a>
+            </p>
           </div>
         )}
         {opcao === 'contatos' && (
@@ -153,7 +153,7 @@ class Options extends Component {
                 <a href="https://github.com/odevpablo"><DiGithubBadge  size={48} id='git'/></a>
               </div>
              <div className='lk'>
-               <a href='https://www.linkedin.com/in/pablo-oliveira-7a32591b5/'><AiFillLinkedin size={40} id='lk'/></a>
+               <a href='https://www.linkedin.com/in/odevpablo/'><AiFillLinkedin size={40} id='lk'/></a>
               </div>
               <div className='st'>
                 <a href='https://www.instagram.com/odevpablo/'><AiFillInstagram size={39} id='st'/></a>
