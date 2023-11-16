@@ -24,6 +24,7 @@ function App() {
           </div>
         </div>
         <img src={Profile} alt='profile' title='pf' width={200} />
+            <div className='divskills'>
               <div className='front'>
                     Front-end
                     <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
@@ -35,6 +36,7 @@ function App() {
                     <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                       <div className="progress-bar bg-success" style={{ width: '43%' }}>43%</div>
                     </div>
+                  </div>
                   </div>
         <Elements />
         <div className='view'>

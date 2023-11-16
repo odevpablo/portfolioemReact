@@ -626,294 +626,94 @@ button:hover{
   }
 }
 @media (max-width: 1002px) {
-  .App-header{
+  .App-header {
     height: 300vh;
   }
-  .profile{
-    top: 140%;
-    left: 350px;
+  
+  .profile {
+    top: 50%;
+    left: 32%;
   }
- 
-  .view{
-    top: 180%;
-
-  }
-  .projeto{
-    width: 40px;
-    left: 0px;
-    font-size: 16px;
-  }
-  .viewtemplates{
-    width: 80vw;
-    left: 25px;
-  }
-  .idisk{
-    width: 40%;
-    left: 0px;
+  .divskills{
+    left: 100px;
+    position: absolute;
+    top: 40%;
   }
   
-  .advtemplate{
-    top: 70%;
-    left: 0px;
-    width: 40%;
-
+  .view {
+    top: 100%;
+    left: 9%;
   }
-  .about{
-    width: 60px;
-    left: 40%;
+  
+  .projeto {
+    width: 40px;
+    left: 0;
     font-size: 16px;
   }
-  .viewabout{
+  
+  .viewtemplates {
+    width: 80vw;
+    left: 5%;
+  }
+  
+  .idisk {
+    width: 40%;
     left: 0;
-    width: 100%;
-    height: 50%;
   }
-  .model1{
-    border-radius: 0;
-    left: 50%;
-    top: 70%;
-  }
-  .model2{
-    border-radius: 0;
-
-    top: 120%;
-    left: 0px;
-    width: 40%;
-  }
-  .model3{
-    border-radius: 0;
-
-    width: 40%;
-    left: 50%;
-    top: 120%;
-  }
-  .model4{
-    border-radius: 0;
-    
-    left: 50%;
-    top: 70%;
-  }
-  .model5{
-    width: 40%;
-
-    border-radius: 0;
-    left: 50%;
-    top: 70%;
-  }
-  .model6{
-    width: 40%;
-    left: 50%;
-    border-radius: 0;
-    top: 70%;
-  }
-  .habilidades{
+  
+  
+  .habilidades {
     top: 10%;
-    left: 25%;
+    left: 5%;
   }
-  .hab{
-    left: 25px;
-  }
-  .elementshab{
-    top: 80px;
-    left: 35px;
+  
+  .elementshab {
+    top: 80%;
+    left: 105px;
     border: none;
   }
-  .descricao{
-
+  
+  .descricao {
     width: 85%;
-    left: 15px;
+    left: 5%;
   }
-  .formacao{
+  
+  .formacao {
     width: 85%;
     top: 150%;
-    left: 0px;
+    left: 5%;
     text-align: center;
     border-top: 2px solid;
     padding: 20px;
   }
-  .contatos{
+  
+  .contatos {
     width: 40px;
     font-size: 16px;
     left: 70%;
   }
-  .thevibes{
+  
+  .thevibes {
     top: 15%;
     left: 50%;
     width: 40%;
-
   }
-  .versiontb{
+  
+  .versiontb {
     top: 55%;
     left: 55%;
   }
-  .viewcontatos{
+  
+  .viewcontatos {
     width: 100%;
     height: 50%;
-    left: 0%;
+    left: 0;
   }
 
-  .projeto{
+  .projeto,
+  .about,
+  .contatos {
     font-size: 18px;
   }
-  .about{
-    font-size: 18px;
-  }
-  .contatos{
-    font-size: 18px;
-  }
+}
 
-}
-@media (max-width: 900px) {
-  .profile{
-    top: 130%;
-    left: 40%;
-  }
-  .elementshab{
-    top: 150%;
-    left: 30px;
-  }
-  .front{
-    left: 382px;
-    top: 900px;
-    font-size: 22px;
-
-  }
-  .back{
-    left: 382px;
-    top: 950px;
-    font-size: 22px;
-  }
-  .view{
-    left: 60px;
-  }
-}
-@media (max-width: 720px) {
-  .profile{
-    left: 270px;
-    top: 650px;
-  }
-  .front{
-    left: 290px;
-    top: 750px;
-    font-size: 22px;
-
-  }
-  .back{
-    left: 290px;
-    top: 800px;
-    font-size: 22px;
-  }
-  .elementshab{
-    left: 35%;
-  }
-}
-@media (max-width: 531px) {
-  .profile{
-    top: 75%;
-    left: 35%;
-  }
-  .front{
-    top: 550px;
-    left: 40%;
-  }
-  .back{
-    top: 600px;
-    left: 40%;
-  }
-  .elementshab{
-    top: 650px;
-    left: 30%;
-  }
-  .view{
-    top: 130%;
-    left: 55px;
-  }
-}
-@media (max-width: 415px) {
-  .profile{
-    top: 45%;
-    left: 30%;
-  }
-  .front{
-    top: 60%;
-    left: 36%;
-  }
-  .back{
-    top: 65%;
-    left: 36%;
-  }
-  .elementshab{
-    left: 20%;
-  }
-  .view{
-    top: 90%;
-    left: 40px;
-  }
-}
-@media (max-width: 407px) {
-  .profile{
-    left: 27%;
-    top: 48%;
-  }
-  .front{
-    top: 62%;
-    left: 110px;
-  }
-  .back{
-    top: 70%;
-    left: 110px;
-  }
-  .elementshab{
-    top: 80%;
-    left: 60px;
-  }
-  .view{
-    top: 120%;
-    left:20px;
-  }
-}
-@media (max-width: 310px) {
-  .profile{
-    top: 50%;
-    left: 105px;
-  }
-  .front{
-    font-size: 15px;
-    top: 50%;
-    left: 130px;
-  }
-  .back{
-    font-size: 15px;
-    top: 72%;
-    left: 130px;
-  }
-  .elementshab{
-    top: 80%;
-    width: 800px;
-    font-size: 10px;
-    left: 70px;
-  }
-  .descricao{
-    left: 10%;
-  }
-  .formacao{
-    width: 90%;
-    left: 0%;
-    top: 260%;
-  }
-
-  .view{
-    top: 110%;
-    left: 25px;
-  }
-  .descricao{
-    top: 80px;
-    left: 25px;
-  }
-  .formacao{
-    top: 350px;
-  }
-}
-@media (max-width: 320px){
-
-}
