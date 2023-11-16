@@ -99,14 +99,14 @@ class Options extends Component {
               </DivSpan>
 
               <DivSpan className="tmp4" spanContent="Review (NODE.JS)" link="https://github.com/odevpablo/reviewnodejs">
-                <Effect className="model1">
+                <Effect className="model1" >
                 </Effect>
               </DivSpan>
 
-              <div className="model2">
-                <Effect href="" className="">
+              <DivSpan className="model2" spanContent="Opa" link="">
+                <Effect className="seachcep" >
                 </Effect>
-              </div>
+              </DivSpan>
 
               <div className="model3">
                 <Effect href="" className="">
@@ -134,9 +134,9 @@ class Options extends Component {
         {opcao === 'sobremim' && (
           <div className='viewabout'>
             <a className='descricao'>
-              Estou quase terminando minha graduação em Análise e Desenvolvimento de Sistemas, com foco principal nas linguagens de programação front-end. 
-              Tenho experiência no uso do React.js e Spring, incluindo a criação de rotas com o Symfony. 
-              Além disso, possuo um bom conhecimento em SQL e Spring Boot.</a>
+            Graduando em Análise e Desenvolvimento de Sistemas com foco em linguagens de programação front-end,
+             buscando oportunidades de carreira para aplicar meus conhecimentos em
+              Angular, JavaScript , React.js, Spring, PHP, Node.js e SQL.</a>
             <a className='formacao'> 
             <a>Formação:</a>
             <br/>

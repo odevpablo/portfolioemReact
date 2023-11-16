@@ -1,6 +1,6 @@
 import './App.css';
 
-import Options from './components/options';
+import Options from './components/options.js';
 
 import {IoLogoInstagram } from 'react-icons/io';
 import { MdExtension } from 'react-icons/md';
