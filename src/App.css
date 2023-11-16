@@ -756,18 +756,18 @@ button:hover{
 @media(max-width: 337px){
   .profile{
     top: 50%;
-    left: 30%;
+    left: 28%;
   }
   .divskills{
     top: 35%;
-    left: 70px;
+    left: 60px;
   }
   .elementshab{
-    left: 75px;
-    top: 100%;
+    left: 70px;
+    top: 90%;
   }
   .view{
-    left: 0;
+    left: 20px;
   }
 }
 
