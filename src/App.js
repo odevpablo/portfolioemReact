@@ -19,12 +19,12 @@ function App() {
           <div>
             <span className='stacks'>
             Desenvolvedor Front-end <br/>
-          | React | Javascript | PHP | Node
             </span>
           </div>
         </div>
         <img src={Profile} alt='profile' title='pf' width={200} />
             <div className='divskills'>
+              Skills Dev:
               <div className='front'>
                     Front-end
                     <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">

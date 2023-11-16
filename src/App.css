@@ -57,8 +57,7 @@
   border-radius: 1em;
 
  }
-
-.front{
+.divskills{
   position: absolute;
   left: 55px;
   top: 200px;
@@ -66,13 +65,7 @@
   animation: slide-left 1.5s ease-in-out;
 }
 
-.back{
-  position: absolute;
-  left: 55px;
-  top: 250px;
-  width: 100px;
-  animation: slide-left 1.5s ease-in-out;
-}
+
 
 .title{
   top: 250px;
@@ -722,12 +715,12 @@ button:hover{
     top: 65%;
   }
   .divskills{
-    top: 50%;
-    left: 24%;
+    top: 75%;
+    left: 145px;
   }
   .elementshab{
     left: 25%;
-    top: 100%;
+    top: 96%;
   }
   .view{
     top: 130%;
@@ -739,8 +732,8 @@ button:hover{
     
   }
   .divskills{
-    top: 45%;
-    left: 80px;
+    top: 70%;
+    left: 120px;
   }
   .elementshab{
     top: 95%;
@@ -753,21 +746,21 @@ button:hover{
     top: 210%;
   }
 }
-@media(max-width: 337px){
+@media(max-width: 320px){
   .profile{
     top: 50%;
-    left: 28%;
+    left: 32%;
   }
   .divskills{
-    top: 35%;
-    left: 60px;
+    top: 60%;
+    left: 109px;
   }
   .elementshab{
     left: 70px;
-    top: 90%;
+    top: 83%;
   }
   .view{
-    left: 20px;
+    left: 15px;
   }
 }
 
