@@ -852,30 +852,34 @@ button:hover{
 }
 @media (max-width: 407px) {
   .profile{
-    top: 70%;
+    left: 27%;
+    top: 48%;
   }
   .front{
-    left: 140px;
+    top: 62%;
+    left: 110px;
   }
   .back{
-    left: 140px;
+    top: 70%;
+    left: 110px;
   }
   .elementshab{
-    left: 30px;
+    top: 80%;
+    left: 60px;
   }
   .view{
     top: 120%;
     left:20px;
   }
 }
-@media (max-width: 345px) {
+@media (max-width: 320px) {
   .profile{
     top: 50%;
     left: 105px;
   }
   .front{
     font-size: 15px;
-    top: 65%;
+    top: 50%;
     left: 130px;
   }
   .back{
@@ -909,4 +913,7 @@ button:hover{
   .formacao{
     top: 350px;
   }
+}
+@media (max-width: 320px){
+
 }
