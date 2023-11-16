@@ -765,11 +765,23 @@ button:hover{
 }
 @media (max-width: 900px) {
   .profile{
-    top: 120%;
-    left: 250px;
+    top: 130%;
+    left: 40%;
   }
   .elementshab{
+    top: 150%;
     left: 30px;
+  }
+  .front{
+    left: 382px;
+    top: 900px;
+    font-size: 22px;
+
+  }
+  .back{
+    left: 382px;
+    top: 950px;
+    font-size: 22px;
   }
   .view{
     left: 60px;
@@ -777,37 +789,40 @@ button:hover{
 }
 @media (max-width: 720px) {
   .profile{
-    left: 260px;
-
+    left: 270px;
+    top: 650px;
   }
   .front{
     left: 290px;
-    top: 850px;
+    top: 750px;
     font-size: 22px;
 
   }
   .back{
     left: 290px;
-    top: 900px;
+    top: 800px;
     font-size: 22px;
   }
-  
+  .elementshab{
+    left: 35%;
+  }
 }
 @media (max-width: 531px) {
   .profile{
-    top: 90%;
+    top: 75%;
     left: 35%;
   }
   .front{
-    top: 650px;
+    top: 550px;
     left: 40%;
   }
   .back{
-    top: 700px;
+    top: 600px;
     left: 40%;
   }
   .elementshab{
-    left: 30px;
+    top: 650px;
+    left: 30%;
   }
   .view{
     top: 130%;
@@ -816,22 +831,22 @@ button:hover{
 }
 @media (max-width: 415px) {
   .profile{
-    top: 70%;
+    top: 45%;
     left: 30%;
   }
   .front{
-    top: 90%;
+    top: 60%;
     left: 36%;
   }
   .back{
-    top: 100%;
+    top: 65%;
     left: 36%;
   }
   .elementshab{
-    left: 30px;
+    left: 20%;
   }
   .view{
-    top: 120%;
+    top: 90%;
     left: 40px;
   }
 }
