@@ -868,22 +868,26 @@ button:hover{
     left:20px;
   }
 }
-@media (max-width: 395px) {
+@media (max-width: 345px) {
   .profile{
-    top: 57%;
+    top: 50%;
     left: 105px;
   }
   .front{
-    top: 70%;
+    font-size: 15px;
+    top: 65%;
     left: 130px;
   }
   .back{
-    top: 80%;
+    font-size: 15px;
+    top: 72%;
     left: 130px;
   }
   .elementshab{
-    top: 150%;
-    left: 30px;
+    top: 80%;
+    width: 800px;
+    font-size: 10px;
+    left: 70px;
   }
   .descricao{
     left: 10%;
@@ -895,7 +899,7 @@ button:hover{
   }
 
   .view{
-    top: 90%;
+    top: 110%;
     left: 25px;
   }
   .descricao{
