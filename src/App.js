@@ -6,7 +6,7 @@ import { MdExtension } from 'react-icons/md';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Elements from './components/elements';
 import Profile from "./img/IMG_4864.jpg";
-import TypingText from './components/text.js';
+import Text from './components/text.js';
 import { useState } from 'react';
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
                   </div>
                   </div>
         <Elements />
-        <TypingText />
+        <Text />
 
         <div className='view'>
           <Options/>

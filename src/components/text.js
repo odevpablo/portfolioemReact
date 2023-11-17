@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-function TypingText() {
+function Text() {
   const text = "Olá, seja bem vindo ao lugar onde exploro o meu potencial!";
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,4 +27,4 @@ function TypingText() {
   );
 }
 
-export default TypingText;
+export default Text;
