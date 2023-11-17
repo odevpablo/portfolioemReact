@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { useState } from "react";
 import {AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 import {DiGithubBadge } from 'react-icons/di';
-
 import Effect from './mouseenter';
+
 
 
 
@@ -76,6 +76,7 @@ class Options extends Component {
 
     return (
       <div>
+       
         <button className='projeto' onClick={() => this.mostrarOpcao('projetos')}>Projetos</button>
         <button className='about' onClick={() => this.mostrarOpcao('sobremim')}>Sobre Mim</button>
         <button className='contatos' onClick={() => this.mostrarOpcao('contatos')}>Contatos</button>

@@ -6,9 +6,12 @@ import { MdExtension } from 'react-icons/md';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Elements from './components/elements';
 import Profile from "./img/IMG_4864.jpg";
+import TypingText from './components/text.js';
 import { useState } from 'react';
 
 function App() {
+ 
+
   return (
     <div className="App">
       <header className="App-header">
@@ -39,10 +42,13 @@ function App() {
                   </div>
                   </div>
         <Elements />
+        <TypingText />
+
         <div className='view'>
-          <Options />
+          <Options/>
         </div>
       </header>
+      
     </div>
   );
 }

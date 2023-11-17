@@ -1,3 +1,4 @@
+
 @keyframes slide-right {
   0% { opacity: 0; -webkit-transform: translateX(-50%); }   
   100% { opacity: 1; -webkit-transform: translateX(0); }
@@ -18,7 +19,10 @@
 50% {
   border-color: transparent; 
 }
+
+
 }
+
 
 
 .App {
@@ -34,6 +38,13 @@
   justify-content: center;
 
 }
+.text{
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  font-size: 40px;
+}
+
 .profile{
   position: absolute;
   top: 50px;
@@ -91,10 +102,10 @@
   margin-top: 52px;
 }
 .view{
-  top: 30px;
+  top: 150px;
   height: 50%;
   width: 950px;
-  left: 490px;
+  left: 550px;
   border-radius: 2px;
   position: absolute;
   background-color: #013140(90, 100, 108, 0.316);
@@ -490,6 +501,11 @@ button:hover{
     width: 90%;
     
   }  
+  .text{
+    font-size: 13px;
+    top: 150%;
+    left: 15px;
+  }
    .projeto{
     width: 40px;
     left: 0px;
@@ -722,14 +738,17 @@ button:hover{
     left: 25%;
     top: 96%;
   }
+  .text{
+    top: 130%;
+  }
   .view{
     top: 130%;
   }
 }
-@media(max-width: 357px){
+@media(max-width: 373px){
   .profile{
     top: 60%;
-    
+    left: 115px; 
   }
   .divskills{
     top: 70%;
@@ -740,7 +759,8 @@ button:hover{
     left: 90px;
   }
   .view{
-    top: 120%;
+    top: 150%;
+    left: 10px;
   }
   .formacao{
     top: 210%;
@@ -759,8 +779,14 @@ button:hover{
     left: 70px;
     top: 83%;
   }
+  .text{
+    top: 120%;
+  }
   .view{
     left: 15px;
+  }
+  .formacao{
+    top: 250%;
   }
 }
 
